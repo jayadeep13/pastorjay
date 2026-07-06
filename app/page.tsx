@@ -559,6 +559,48 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* Divider */}
+              <div className="flex items-center gap-3">
+                <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, #FDE68A, transparent)' }} />
+                <span style={{ color: '#d97706', fontSize: 10 }}>✦</span>
+                <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, #FDE68A, transparent)' }} />
+              </div>
+
+              {/* Warm invitation */}
+              <div className="rounded-2xl p-6" style={{ background: 'linear-gradient(135deg, #1e3a5f 0%, #1e3a5f 70%, #92400e 100%)' }}>
+                <p className="text-amber-300 text-[9px] tracking-[0.3em] uppercase font-bold mb-3">We&apos;d Love to Hear From You</p>
+                <p className="text-white/85 text-sm leading-relaxed mb-4">
+                  Whether you have a question, a prayer request, or want to partner with us in reaching the unreached — our inbox is always open.
+                  Write to us and we will get back to you as soon as possible.
+                </p>
+                <a
+                  href="mailto:info@sowersministry.com"
+                  className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide px-4 py-2 rounded-full transition-all hover:scale-105"
+                  style={{ background: 'linear-gradient(135deg,#F59E0B,#EA580C)', color: '#fff', boxShadow: '0 4px 12px rgba(245,158,11,0.35)' }}
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  Mail Us Now
+                </a>
+              </div>
+
+              {/* Scripture */}
+              <div className="border-l-2 pl-4" style={{ borderColor: '#d97706' }}>
+                <p className="text-gray-500 text-sm italic leading-relaxed">
+                  &ldquo;Ask the Lord of the harvest, therefore, to send out workers into his harvest field.&rdquo;
+                </p>
+                <p className="text-amber-600 text-[10px] tracking-widest uppercase font-semibold mt-1.5">Matthew 9:38</p>
+              </div>
+
+              {/* Response time note */}
+              <p className="text-gray-400 text-xs flex items-center gap-2">
+                <svg className="w-3.5 h-3.5 flex-shrink-0" style={{ color: '#d97706' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                We typically respond within 1–2 business days.
+              </p>
+
             </div>
           </div>
         </div>
