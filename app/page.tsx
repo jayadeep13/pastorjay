@@ -559,46 +559,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* India Office */}
-              <div className="flex gap-4">
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 text-base" style={{ background: 'rgba(245,158,11,0.12)' }}>🇮🇳</div>
-                <div>
-                  <p className="text-[9px] tracking-[0.3em] uppercase font-bold mb-1" style={{ color: '#9CA3AF' }}>India Office</p>
-                  <p className="text-gray-800 text-sm font-semibold leading-snug mb-0.5">Sowers Ministry International</p>
-                  <p className="text-gray-500 text-xs leading-6">
-                    20-4-168, New Ayodhyanagar<br />
-                    Vijayawada, AP 520003, INDIA<br />
-                    <a href="tel:+919440109278" className="hover:text-amber-600 transition-colors">+91-94401 09278</a>
-                  </p>
-                </div>
-              </div>
-
-              {/* USA Office */}
-              <div className="flex gap-4">
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 text-base" style={{ background: 'rgba(245,158,11,0.12)' }}>🇺🇸</div>
-                <div>
-                  <p className="text-[9px] tracking-[0.3em] uppercase font-bold mb-1" style={{ color: '#9CA3AF' }}>USA Office</p>
-                  <p className="text-gray-800 text-sm font-semibold leading-snug mb-0.5">Sowers Ministry</p>
-                  <p className="text-gray-500 text-xs leading-6">
-                    30510 Rollingoak<br />
-                    Tehachapi, CA 93561
-                  </p>
-                </div>
-              </div>
-
-              {/* Canada Office */}
-              <div className="flex gap-4">
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 text-base" style={{ background: 'rgba(245,158,11,0.12)' }}>🇨🇦</div>
-                <div>
-                  <p className="text-[9px] tracking-[0.3em] uppercase font-bold mb-1" style={{ color: '#9CA3AF' }}>Canada Office</p>
-                  <p className="text-gray-800 text-sm font-semibold leading-snug mb-0.5">Sowers Ministry</p>
-                  <p className="text-gray-500 text-xs leading-6">
-                    43216, South Sumas Road<br />
-                    Chilliwack, BC V2R4L6, CANADA
-                  </p>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>

@@ -74,8 +74,8 @@ export default function ChristmasJoyPage() {
       <section style={{ background: 'linear-gradient(135deg,#0a1535,#0d1f4a)' }}>
         <div className="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-0 divide-x divide-white/10">
           {[
-            { num: '1,250+', label: 'Boxes Distributed Last Year' },
-            { num: '320+',   label: 'Rural Communities Reached' },
+            { num: '8,000+', label: 'Boxes Since Inception 2020' },
+            { num: '5',      label: 'States — KL · KA · AP · TG · OD' },
             { num: '$30',    label: 'Sponsors One Child' },
             { num: '3,000',  label: 'Goal for This Year' },
           ].map((s, i) => (
@@ -127,7 +127,7 @@ export default function ChristmasJoyPage() {
                 You can sponsor one child and a box for <strong className="text-amber-600">$30</strong>. That is all it will take to bring joy into the life of a child in India &mdash; and no child will be turned away, regardless of their faith.
               </p>
               <p>
-                Last year we were able to provide <strong className="text-blue-900">1,250 boxes</strong> to children in need across <strong className="text-blue-900">320 communities</strong> in the rural areas of southern and eastern India. This year we are hoping to give <strong className="text-blue-900">3,000 boxes</strong>. Please help us be faithful in meeting this need again and growing the ministry as more churches reach out to us for help.
+                Since our inception in <strong className="text-blue-900">2020</strong>, we have distributed over <strong className="text-blue-900">8,000 boxes</strong> across <strong className="text-blue-900">Kerala, Karnataka, Andhra Pradesh, Telangana, and Odisha</strong>. This year we are hoping to give <strong className="text-blue-900">3,000 boxes</strong>. Please help us be faithful in meeting this need again and growing the ministry as more churches reach out to us for help.
               </p>
             </div>
 

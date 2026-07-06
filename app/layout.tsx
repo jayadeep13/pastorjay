@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   },
   description:
     "Rev. Jayakumar Babu Salluri — Reaching the Unreached. Planting churches, training pastors, caring for orphans and widows across India since 2001.",
+  icons: {
+    icon: '/jay.png',
+    apple: '/jay.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
